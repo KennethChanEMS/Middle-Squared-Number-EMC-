@@ -4,4 +4,5 @@ will take a seed and square it use the middle sets of numbers add it to a string
 is a lot of exception for example if we got 100 squaring it give 10000 the middle are all 0s. also the
 sqeuence repeats in its default state if a certain number becomes the seed or the number has a higher
 digit than 10^n where n is the amount of numbers taken in the middle. So I modified it. Definity not 
-painful.
+painful. The slight downside of this PRNg is that the digits start to repeat at a certain amount of 
+iterations and will need to random number to start of the process.
